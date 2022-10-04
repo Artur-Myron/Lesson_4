@@ -1,0 +1,452 @@
+* {
+    box-sizing: border-box;
+    margin: 0%;
+}
+
+
+/* manual */
+
+/* .manual0{
+    width: 65px;
+    height: 100%;
+    background-color: #e1e0e0
+}
+
+.manual{
+    width: 65px;
+   
+}
+
+.manual1{
+    width: 65px;
+    height: 10%;
+}
+.manual2{
+    width: 65px;
+    height: 30%;
+}
+.manual3{
+    width: 65px;
+    height: 35%;
+}
+.manual4{
+    width: 65px;
+    height: 40%;
+}
+.manual5{
+    width: 65px;
+    height: 50%;
+} */
+
+/* menu */
+
+
+
+
+
+.menu0{
+    width: 100%;
+    height: 40px;
+    background-color: #e1e0e0;
+    display: flex;
+    border-bottom:2px  solid red;
+    background-color: #000000;
+    opacity: 1;
+    
+   
+}
+
+.menu:hover{
+    opacity: 1;
+    background-color: rgb(62, 61, 61);
+    
+    
+}
+
+.menu{
+    color: #ffffff;
+    /* list-style-type: none; */
+    /* overflow: auto; */
+    display: flex;
+    width:100%;
+    line-height: 30px;
+    text-align: left;
+    font-size: 20px;
+    
+    
+    /* opacity: 0; */
+    /* background-color: cornflowerblue; */
+   
+    
+}
+
+.menu1{
+    margin: 0 60% 0 0 ;
+    
+}
+.menu2{
+    margin: 0 0 0 0 ;
+    
+}
+.menu3{
+    margin: 0 0 0 0 ;
+    
+}
+.menu4{
+    margin: 0 0 0 0 ;
+    
+}
+.menu5{
+    margin: 0 0 0 0 ; 
+    
+}
+
+/* .menu-color{
+    opacity: 0; 
+    color: #fff;
+   width: 200px;
+   height: 200px;
+   margin: 0px 60% 40px -100em;
+   overflow: auto;
+    
+}
+
+.menu-color:hover{
+    opacity: 1; 
+    background-color: rgb(48, 48, 48);
+} */
+
+
+
+/* LESSON_4_Marvel */
+
+.h1{
+    background-color: #e1e0e0;
+    line-height: 65px;
+    font-size: 50px;
+    color: red;
+    text-align: center;
+}
+.h2{
+    /* text-align: right; */
+    margin: 0 0 10px 0 ;
+    /* text-align-last: right; */
+    border-bottom: solid 2px red;
+    /* height: 29px;
+    width: 200px; */
+    /* direction: rtl; */
+    /* text-decoration: underline; */
+}
+
+.h02{
+    background-color: #e1e0e0;
+    line-height: 65px;
+    color: red;
+    text-align: center ;
+    font-size: 50px;
+    
+
+}
+
+.p02{
+text-align: center;
+color: rgb(255, 255, 255);
+font-size: 80px;
+height: 100%;
+/* text-decoration-line: underline; */
+text-shadow: 1px 1px rgb(255, 255, 255)
+/* justify-content: center; */
+}
+
+.p02:hover{
+    color: #000000;
+}
+
+.p03{
+    font-size: 16px;
+    overflow: auto;
+    height: 510px;
+    color: #fff;
+    opacity: 0;
+    transition: all .3s ease-in;
+    --offset: var(--main-document-header-height);
+    /* text-align:justify; */
+}
+
+.p03:hover{
+    opacity: 1; 
+}
+
+.li{
+    overflow: auto;
+    /* overflow: hidden; */
+    text-align: center;
+    overflow-wrap: break-word;
+}
+
+.ul{
+    margin: 0px 50px 0px 15px;
+}
+
+/* .Gradient1 .p03{
+    color: #fff;
+    opacity: 0;
+    display: none;
+    
+}
+.Gradient2 .p03{
+    color: #fff;
+    opacity: 0;
+    display: none;
+    
+}
+.Gradient3 .p03{
+    color: #fff;
+    opacity: 0;
+    display: none;
+    
+}
+.Gradient4 .p03{
+    color: #fff;
+    opacity: 0;
+    display: none;
+   
+}
+.Gradient5 .p03{
+    color: #fff;
+    opacity: 0;
+    display: none;
+    
+}
+.Gradient6 .p03{
+    color: #fff;
+    opacity: 0;
+    display: none;
+    
+} */
+
+
+/* .Gradient1:hover .p03{
+    opacity: 1;
+    display: block;
+}
+.Gradient2:hover .p03{
+    opacity: 1;
+    display: block;
+}
+.Gradient3:hover .p03{
+    opacity: 1;
+    display: block;
+}
+.Gradient4:hover .p03{
+    opacity: 1;
+    display: block;
+}
+.Gradient5:hover .p03{
+    opacity: 1;
+    display: block;
+}
+.Gradient6:hover .p03{
+    opacity: 1;
+    display: block;
+} */
+
+
+.text{
+    height: 440px;
+    width: 850px;
+    margin: 3em 4em 77px 62em;
+    word-spacing: 5px;
+    /* text-indent: 10px; */
+    text-align:justify;
+    float: right;
+    overflow: auto;
+    /* background-color: #f5d462; */
+
+}
+
+.picture{
+    width: 60em;
+    height: 45em;
+    /* background-color: aqua; */
+}
+
+.box{
+    width: 200px;
+    height: 110px;
+   margin: 0px -45px 10px 60px;
+   float: left;
+   border: thick double #dcdcdc;
+   transform: border .7s;
+   background-size: 100% 100%;
+
+   /* width: 100% / 4; */
+       /* height: 110px;
+    width: 200px; */
+     
+  }
+  
+  .box:hover{
+    border-color: #f5d462;
+  }
+
+.margin0{
+    height: 450px;
+    width: 850px;
+    margin: 40px 10px 10px 60px;
+    background-size: 100% 100%;
+    border: thick double #dcdcdc;
+    transform: border .7s;
+    background-image: url(./../Picture/Marvel_Studios_logo.jpg);
+}
+
+.margin0:hover{
+    border-color: #f5d462;
+}
+
+.margin1{
+    background-image: url(./../Picture/Marvel_Studios_logo.jpg);
+}
+
+.margin2{
+    background-image: url(./../Picture/netflix-reveals-when-to-expect-new-ad-supported-subscription_888m.jpg)
+}
+
+.margin3{
+  background-image: url(./../Picture/01155608352303.webp);
+}
+
+.margin4{
+    background-image: url(./../Picture/347-multiplex_logo.jpg);
+}
+
+.warp{
+    height: 360px;
+    width: 500px;
+    overflow: auto;
+    margin-left: 110%;
+}
+
+/* Gradient */
+
+.div{
+    min-height: 70vh;
+    min-width: 100%;
+    /* background-color: #f5d462; */
+}
+
+.Gradient{
+    margin: 40px 0px 40px 0px ;
+    width: calc(100% / 6);
+    height: 600px;
+    float: left;
+    /* border-bottom: 4px medium #dcdcdc;
+    border-top: 4px medium #dcdcdc; */
+}
+
+.Gradient:hover{
+    border-color: #eaff00;
+}
+
+.Gradient1{
+    background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,45,45,1) 100%);
+}
+
+.Gradient2{
+    background: linear-gradient(0deg, rgba(99,195,34,1) 0%, rgba(45,81,253,1) 100%);
+
+}
+
+.Gradient3{
+    background: linear-gradient(0deg, rgba(161,34,195,1) 0%, rgba(225,232,43,1) 100%);
+
+}
+
+.Gradient4{
+    background: linear-gradient(0deg, rgba(225,232,43,1) 0%, rgba(161,34,195,1) 100%);
+
+}
+
+.Gradient5{
+    background: linear-gradient(0deg, rgba(99,195,34,1) 0%, rgba(45,81,253,1) 100%);
+}
+
+.Gradient6{
+    background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,45,45,1) 100%);
+}
+
+/* LESSON_4 */
+
+/* body{
+    width: 90%;
+    max-width: 600px;
+    margin: 0 auto;
+    font: .9em/1.2 Arial, Helvetica, sans-serif;
+} */
+
+/* .box{
+    width: 300px;
+    height: 300px;
+    border-radius: 5px;
+    padding: 1em;
+    
+} */
+
+
+  /* .picture1{
+    height: 360px;
+    width: 640px;
+    margin: 0px 0px 0px 0px;
+    border: thick double #dcdcdc;
+    background-image: url(./../Picture/Marvel_Studios_logo.jpg)
+
+} */
+
+
+/* .margin1{
+height: 360px;
+width: 640px;
+border: thick double #dcdcdc;
+background-image: url(./../Picture/Marvel_Studios_logo.jpg);
+} */
+
+/* .marvel{
+    height: 360px;
+    width: 640px;
+
+} */
+
+/* .text{
+    text-align: right;
+} */
+
+/* .box figure{
+    width: 100px;
+    float: left;
+    height: 100px
+    
+}
+.picture0{
+    content: '';
+    display: block;
+    width: 650px; ;
+    height: 330px;
+    background-image: url(./../Picture/Marvel_Studios_logo.jpg);
+    border-style: solid;
+    border-width: 5px;
+    border-color: #e1e0e0;
+} */ 
+
+
+/* .picture1{
+    background-image:url(./../Picture/Marvel_Studios_logo.jpg) ;
+    
+}
+.picture2{
+    background-image:url(./../Picture/Marvel_Studios_logo.jpg) ;
+    
+}
+.picture3{
+    background-image:url(./../Picture/Marvel_Studios_logo.jpg) ;
+    
+}
